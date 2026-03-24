@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/agent_digest/__init__.py
+src/agent_digest/data_digest.py
+src/agent_digest/decorators.py
+src/agent_digest/report.py
+src/agent_digest/text_digest.py
+src/agent_digest.egg-info/PKG-INFO
+src/agent_digest.egg-info/SOURCES.txt
+src/agent_digest.egg-info/dependency_links.txt
+src/agent_digest.egg-info/top_level.txt
+tests/test_agent_digest.py
