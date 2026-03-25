@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="assets/agent-digest-hero.png" alt="agent-digest — Vedic Arsenal" width="100%" />
+<img src="assets/agent-digest-hero.png" alt="agent-digest — Vedic Arsenal by Darshankumar Joshi" width="100%" />
 
 # ⚡ agent-digest
 
-### *सार* — Sara — the essential essence, the digest of truth
+<h3><em>सार</em></h3>
+
+> *Sara — the essential essence, the digest of truth*
 
 **Data summarization for agent outputs — TextDigest, DataDigest, DigestReport, @digest_output. Zero dependencies.**
 
@@ -39,6 +41,19 @@ Or clone directly:
 git clone https://github.com/darshjme/agent-digest.git
 cd agent-digest
 pip install -e .
+```
+
+## How It Works
+
+```mermaid
+flowchart LR
+    A[Input] --> B[agent-digest]
+    B --> C{Process}
+    C -- Success --> D[Output]
+    C -- Error --> E[Handle / Retry]
+    E --> B
+    style B fill:#6b21a8,color:#fff
+    note["Digest — Zero Dependencies"]
 ```
 
 ## Quick Start
@@ -90,7 +105,7 @@ MIT — use freely, build freely.
 
 <div align="center">
 
-**Built with ⚡ by [Darshankumar Joshi](https://github.com/darshjme)**
+**Built with ⚡ by [Darshankumar Joshi](https://github.com/darshjme)** · [@thedarshanjoshi](https://twitter.com/thedarshanjoshi)
 
 *"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन"*
 *Your right is to action alone, never to the fruits thereof.*
